@@ -15,6 +15,7 @@
 		7B76038628859B1300E4C2E7 /* LandmarksUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B76038528859B1300E4C2E7 /* LandmarksUITests.swift */; };
 		7B76038828859B1300E4C2E7 /* LandmarksUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B76038728859B1300E4C2E7 /* LandmarksUITestsLaunchTests.swift */; };
 		7B78DED628884A60004BF06F /* CircleImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B78DED528884A60004BF06F /* CircleImageView.swift */; };
+		7B843415288D830B006E775B /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B843414288D830B006E775B /* MapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 		7B76038528859B1300E4C2E7 /* LandmarksUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarksUITests.swift; sourceTree = "<group>"; };
 		7B76038728859B1300E4C2E7 /* LandmarksUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarksUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		7B78DED528884A60004BF06F /* CircleImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImageView.swift; sourceTree = "<group>"; };
+		7B843414288D830B006E775B /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				7B76036C28859B1200E4C2E7 /* ContentView.swift */,
 				7B76036E28859B1300E4C2E7 /* Assets.xcassets */,
 				7B78DED528884A60004BF06F /* CircleImageView.swift */,
+				7B843414288D830B006E775B /* MapView.swift */,
 				7B76037028859B1300E4C2E7 /* Preview Content */,
 			);
 			path = Landmarks;
@@ -261,6 +264,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7B76036D28859B1200E4C2E7 /* ContentView.swift in Sources */,
+				7B843415288D830B006E775B /* MapView.swift in Sources */,
 				7B78DED628884A60004BF06F /* CircleImageView.swift in Sources */,
 				7B76036B28859B1200E4C2E7 /* LandmarksApp.swift in Sources */,
 			);
