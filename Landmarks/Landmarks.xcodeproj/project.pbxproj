@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7B0DE1BD2892509F0053FD81 /* LandmarkDatail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B0DE1BC2892509F0053FD81 /* LandmarkDatail.swift */; };
 		7B76036B28859B1200E4C2E7 /* LandmarksApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B76036A28859B1200E4C2E7 /* LandmarksApp.swift */; };
 		7B76036D28859B1200E4C2E7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B76036C28859B1200E4C2E7 /* ContentView.swift */; };
 		7B76036F28859B1300E4C2E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B76036E28859B1300E4C2E7 /* Assets.xcassets */; };
@@ -41,6 +42,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7B0DE1BC2892509F0053FD81 /* LandmarkDatail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkDatail.swift; sourceTree = "<group>"; };
 		7B76036728859B1200E4C2E7 /* Landmarks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Landmarks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B76036A28859B1200E4C2E7 /* LandmarksApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarksApp.swift; sourceTree = "<group>"; };
 		7B76036C28859B1200E4C2E7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -159,6 +161,7 @@
 				7B843414288D830B006E775B /* MapView.swift */,
 				7B7A67722890084A0086118D /* LandmarkRow.swift */,
 				7BD92F4B2891277900537D52 /* LandmarkList.swift */,
+				7B0DE1BC2892509F0053FD81 /* LandmarkDatail.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -309,6 +312,7 @@
 				7BD92F4C2891277900537D52 /* LandmarkList.swift in Sources */,
 				7B76036B28859B1200E4C2E7 /* LandmarksApp.swift in Sources */,
 				7B7A676D289001E50086118D /* Landmark.swift in Sources */,
+				7B0DE1BD2892509F0053FD81 /* LandmarkDatail.swift in Sources */,
 				7B7A67732890084A0086118D /* LandmarkRow.swift in Sources */,
 				7B7A676F2890056A0086118D /* ModelData.swift in Sources */,
 			);
