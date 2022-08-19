@@ -8,7 +8,12 @@
 import SwiftUI
 
 struct LandmarkDatail: View {
+    @EnvironmentObject var modelData: ModelData
     var landmark: Landmark
+    
+    var landmarkIndex: Int {
+        modelData.landmarks.firstIndex(where: { $0.id == landmark.id })!
+    }
     
     var body: some View {
         ScrollView {
@@ -23,9 +28,13 @@ struct LandmarkDatail: View {
                 .padding(.bottom, -130)
             
             VStack(alignment: .leading) {
-                // landmark의 name을 노출
-                Text(landmark.name)
-                    .font(.title)
+                HStack {
+                    // landmark의 name을 노출
+                    Text(landmark.name)
+                        .font(.title)
+                    FavoriteButton(isSet: $modelData.landmarks[landmarkIndex].isFavorite)
+                }
+               
                 HStack {
                     // landmark의 park와 state를 노출
                     Text(landmark.park)
@@ -50,7 +59,9 @@ struct LandmarkDatail: View {
 }
 
 struct LandmarkDatail_Previews: PreviewProvider {
+    static let modelData = ModelData()
     static var previews: some View {
-        LandmarkDatail(landmark: landmarks[0])
+        LandmarkDatail(landmark: modelData.landmarks[0])
+            .environmentObject(modelData)
     }
 }
